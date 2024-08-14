@@ -49,6 +49,6 @@ The script includes basic security measures, such as:
 ## 🤝 Contributing
 Contributions are welcome! If you have suggestions, feel free to fork the repository, make your changes, and submit a pull request.
 
-##📧 Contact
+## 📧 Contact
 For any questions or support, feel free to reach out via discord.
 My discord: bakajlando2
