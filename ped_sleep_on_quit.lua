@@ -49,13 +49,9 @@ AddEventHandler('playerDropped', function(reason)
 
     TaskPlayAnim(savedPed, "amb@world_human_bum_slumped@male@laying_on_right_side@base", "base", 8.0, -8.0, -1, 1, 0, false, false, false)
 
-    if Config.FreezePed then
-        FreezeEntityPosition(savedPed, true)
-    end
+    FreezeEntityPosition(savedPed, true)
 
-    if Config.PedGodmode then
-        SetEntityInvincible(savedPed, true)
-    end
+    SetEntityInvincible(savedPed, true)
 
     savedPeds[playerId] = savedPed
 
