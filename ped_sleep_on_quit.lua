@@ -7,9 +7,6 @@
 -- If you have any problems with the script or the script is not working just dm me on discord: bakajlando2
 -- If you have any problems with the script or the script is not working just dm me on discord: bakajlando2
 
-Config = Config or {}
-dofile('config.lua')
-
 local savedPeds = {}
 
 local resourceName = GetCurrentResourceName()
